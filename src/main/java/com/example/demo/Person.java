@@ -9,10 +9,10 @@ import javax.persistence.Id;
 public class Person {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
-    private  Long personId;
-    private  String firstName;
-    private  String lastName;
-    private  int age;
+    private Long personId;
+    private String firstName;
+    private String lastName;
+    private int age;
 
     public Person(String firstName, String lastName, int age) {
 
